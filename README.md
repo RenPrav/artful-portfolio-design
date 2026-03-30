@@ -162,7 +162,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📧 Contact
 
-Praveen S - [Your Email]
+Praveen S - [saravananpraveen1157@gmail.com]
 
 ---
 
