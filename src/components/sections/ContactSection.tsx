@@ -71,7 +71,7 @@ const ContactSection = () => {
             <Github className="text-muted-foreground group-hover:text-primary transition-colors" size={20} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/praveen-s57"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 rounded-xl glass flex items-center justify-center hover:border-primary/50 transition-colors group"
