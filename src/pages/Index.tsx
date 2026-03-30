@@ -1,16 +1,34 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/sections/HeroSection";
+import AboutSection from "@/components/sections/AboutSection";
+import ExperienceSection from "@/components/sections/ExperienceSection";
+import ProjectsSection from "@/components/sections/ProjectsSection";
+import SkillsSection from "@/components/sections/SkillsSection";
+import CertificationsSection from "@/components/sections/CertificationsSection";
+import ContactSection from "@/components/sections/ContactSection";
+import GridBackground from "@/components/art/GridBackground";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="relative min-h-screen noise">
+      <GridBackground />
+      <Navbar />
+      <main className="relative z-10">
+        <HeroSection />
+        <AboutSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <CertificationsSection />
+        <ContactSection />
+      </main>
+      <footer className="relative z-10 border-t border-border py-8 text-center">
+        <p className="text-muted-foreground text-sm font-mono">
+          © 2026 Praveen S. Built with passion.
+        </p>
+      </footer>
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
