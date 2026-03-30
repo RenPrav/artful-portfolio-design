@@ -1,202 +1,169 @@
-<!-- Header Wave Animation -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,50:a855f7,100:06b6d4&height=200&section=header&text=Praveen%20S&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20ML%20Developer%20%7C%20Azure%20AI%20Engineer&descAlignY=60&descSize=20&descColor=e2d9f3"/>
+# Artful Portfolio Design
 
-<!-- Typing Animation (Fixed) -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=600&lines=Building+AI+that+matters;Machine+Learning+%7C+Computer+Vision;Azure+AI+Engineer+Associate;Python+%7C+XGBoost+%7C+Streamlit;9.18+CGPA+%7C+KSRCT+Tiruchengode" alt="Typing SVG" />
-</p>
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. This project showcases a professional portfolio with sections for about, experience, projects, skills, certifications, and contact information.
 
-<!-- Social Badges -->
-<p align="center">
-  <a href="https://linkedin.com/in/praveen-s57">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/PRAVEEN1000-7">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="mailto:saravananpraveen1157@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://github.com/PRAVEEN1000-7/EnviroScan.ai">
-    <img src="https://img.shields.io/badge/EnviroScan.ai-22c55e?style=for-the-badge&logo=leaflet&logoColor=white" alt="EnviroScan"/>
-  </a>
-</p>
+## 🚀 Features
 
-<!-- Profile Views Counter -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PRAVEEN1000-7&label=Profile+Views&color=a855f7&style=for-the-badge" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/PRAVEEN1000-7?label=Followers&style=for-the-badge&color=06b6d4&logo=github" alt="Followers"/>
-</p>
+- **Modern UI/UX** - Built with shadcn/ui components and Tailwind CSS
+- **Responsive Design** - Fully responsive across all device sizes
+- **Smooth Animations** - Powered by Framer Motion
+- **Dark/Light Theme** - Theme switching support via next-themes
+- **Single Page Application** - Built with React Router for navigation
+- **TypeScript** - Full TypeScript support for type safety
+- **Form Validation** - Built with React Hook Form and Zod
+- **Testing** - Configured with Vitest and Playwright for E2E testing
 
----
+## 🛠️ Tech Stack
 
-## 🧑‍💻 About Me
+- **Framework:** React 18.3.1
+- **Language:** TypeScript 5.8.3
+- **Build Tool:** Vite 5.4.19
+- **Styling:** Tailwind CSS 3.4.17
+- **UI Components:** shadcn/ui (Radix UI primitives)
+- **Routing:** React Router DOM 6.30.1
+- **State Management:** TanStack Query 5.83.0
+- **Animations:** Framer Motion 12.38.0
+- **Forms:** React Hook Form 7.61.1 with Zod validation
+- **Testing:** Vitest (unit tests) + Playwright (E2E tests)
 
-```python
-class PraveenS:
-    def __init__(self):
-        self.name        = "Praveen S"
-        self.role        = "AI/ML Developer"
-        self.location    = "Erode, Tamil Nadu 🇮🇳"
-        self.education   = "B.E. CSE (AI & ML) @ KSRCT Tiruchengode"
-        self.cgpa        = 9.18
-        self.languages   = ["Python 🐍", "C", "Java", "SQL"]
-        self.interests   = ["Machine Learning", "Computer Vision",
-                            "Generative AI", "Cloud AI Services"]
-        self.current     = "Building real-world AI solutions 🚀"
+## 📦 Project Structure
 
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together 🤝")
-
-me = PraveenS()
-me.say_hi()
+```
+artful-portfolio-design/
+├── src/
+│   ├── components/       # React components
+│   │   ├── ui/          # shadcn/ui components
+│   │   ├── sections/    # Portfolio section components
+│   │   └── art/         # Artistic/visual components
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utility functions
+│   ├── pages/           # Page components
+│   └── test/            # Test files
+├── public/              # Static assets
+├── .github/             # GitHub workflows and configs
+└── ...config files
 ```
 
----
+## 🏃 Getting Started
 
-## 🚀 Tech Stack & Tools
+### Prerequisites
 
-### 👨‍💻 Languages
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
+- Node.js 18+ or Bun
+- npm, yarn, pnpm, or bun
 
-### 🤖 AI / ML & Data Science
-<p>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ComfyUI-1a1a2e?style=for-the-badge&logo=artstation&logoColor=white"/>
-</p>
+### Installation
 
-### 🛠️ Frameworks & Backend
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white"/>
-</p>
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd artful-portfolio-design
+```
 
-### ☁️ Cloud & Platforms
-<p>
-  <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Azure_AI-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-</p>
+2. Install dependencies:
+```bash
+npm install
+# or
+bun install
+```
 
-### 🗄️ Databases
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-</p>
+3. Start the development server:
+```bash
+npm run dev
+# or
+bun run dev
+```
 
-### 🔧 Dev Tools & Testing
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white"/>
-  <img src="https://img.shields.io/badge/UnitTest-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
+4. Open your browser and navigate to `http://localhost:5173`
 
----
+## 📜 Available Scripts
 
-## 🏆 Featured Projects
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run build:dev` | Build in development mode |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint |
+| `npm run test` | Run unit tests |
+| `npm run test:watch` | Run tests in watch mode |
 
-### 🌿 EnviroScan.ai — AI Air Quality Monitor
-> **Infosys Springboard Internship | Dec 2025 – Jan 2026**
+## 🧪 Testing
 
-<a href="https://github.com/PRAVEEN1000-7/EnviroScan.ai">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=PRAVEEN1000-7&repo=EnviroScan.ai&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=06b6d4" />
-</a>
+Run unit tests:
+```bash
+npm run test
+```
 
-- 🎯 Achieved **92.26% accuracy** using XGBoost ML models
-- 📡 Real-time data from **OpenAQ**, **OpenStreetMap**, **Open-Meteo** APIs
-- 📊 Interactive **Streamlit** dashboard with maps, charts & automated email alerts
-- ⚙️ End-to-end ML pipeline: data collection → preprocessing → deployment → report generation
-- **Stack:** `Python` `XGBoost` `Streamlit` `Pandas` `NumPy`
+Run tests in watch mode:
+```bash
+npm run test:watch
+```
 
----
+## 🎨 Customization
 
-### 🕺 Motion Recognition System — IITM PARVARTAK
-- 🎥 Real-time **human pose tracking** using MediaPipe + OpenCV
-- 🎮 Mirrored movements onto a **Unity 3D avatar** for interactive visualization
-- 🌐 Webcam-based capture with live avatar animation
-- **Stack:** `Python` `MediaPipe` `OpenCV` `Unity`
+### Updating Content
 
----
+Edit the section components in `src/components/sections/`:
 
-### 👗 Virtual Try-On System
-- 🛍️ AI-powered outfit **virtual try-on** using ComfyUI pipelines
-- 👕 Realistic clothing previews for enhanced virtual shopping UX
-- **Stack:** `Python` `ComfyUI` `Image Processing`
+- `HeroSection.tsx` - Hero/intro section
+- `AboutSection.tsx` - About me section
+- `ExperienceSection.tsx` - Work experience
+- `ProjectsSection.tsx` - Project showcase
+- `SkillsSection.tsx` - Skills display
+- `CertificationsSection.tsx` - Certifications
+- `ContactSection.tsx` - Contact form
 
----
+### Styling
 
-## 🔥 GitHub Streak
+- Modify `tailwind.config.ts` for theme customization
+- Edit `src/index.css` for global styles
+- Update `components.json` for shadcn/ui configuration
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=PRAVEEN1000-7&theme=tokyonight&border=a855f7&ring=a855f7&fire=06b6d4&currStreakLabel=a855f7&sideLabels=06b6d4&background=0d1117" alt="GitHub Streak"/>
-</p>
+## 📱 Portfolio Sections
 
+1. **Hero** - Eye-catching introduction with name and title
+2. **About** - Personal bio and background
+3. **Experience** - Professional work history
+4. **Projects** - Showcase of personal/professional projects
+5. **Skills** - Technical skills and competencies
+6. **Certifications** - Professional certifications
+7. **Contact** - Contact form and social links
 
-## 🎓 Certifications
+## 🚀 Deployment
 
-| 🏆 Certification | 🏢 Issuer |
-|---|---|
-| ☁️ Azure AI Engineer Associate | Microsoft |
-| 🤖 OCI Generative AI Professional | Oracle |
-| 🧠 OCI AI Foundations Associate | Oracle |
-| 🔷 Claude Certified Architect – Foundations | Anthropic |
-| 🐍 Advanced Diploma in Python Programming | — |
-| ☕ Java Programming | Infosys Springboard |
+### Build for Production
 
----
+```bash
+npm run build
+```
 
-## 🎓 Education
+The built files will be in the `dist/` directory.
 
-| 🏛️ Institution | 📚 Qualification | 🗓️ Year | 📈 Score |
-|---|---|---|---|
-| K.S.Rangasamy College of Technology | B.E. CSE (AI & ML) | 2023 – Present | **9.18 CGPA** |
-| Government HSS, Erode | Higher Secondary | 2022 – 2023 | **82.83%** |
-| Government HSS, Erode | Secondary School | 2020 – 2021 | **100%** |
+### Deploy to Vercel
 
----
+```bash
+npm install -g vercel
+vercel
+```
 
-## 📈 Contribution Activity Graph
+### Deploy to Netlify
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PRAVEEN1000-7&bg_color=0d1117&color=a855f7&line=06b6d4&point=ffffff&area=true&hide_border=true&area_color=6e40c9" />
-</p>
+Connect your repository to Netlify and use the following build settings:
+- **Build Command:** `npm run build`
+- **Publish Directory:** `dist`
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 📧 Contact
+
+Praveen S - [Your Email]
 
 ---
 
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/PRAVEEN1000-7/PRAVEEN1000-7/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-</p>
-
----
-
-## 💬 Dev Quote of the Day
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
-</p>
-
----
-
-<!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:a855f7,100:6e40c9&height=120&section=footer"/>
-
-<p align="center">
-  <i>✨ "The best way to predict the future is to create it with AI." ✨</i><br/>
-  <b>— Praveen S | AI/ML Developer 🚀</b>
-</p>
+Built with ❤️ using React, TypeScript, and Tailwind CSS
