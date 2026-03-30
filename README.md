@@ -1,9 +1,9 @@
 <!-- Header Wave Animation -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,50:a855f7,100:06b6d4&height=200&section=header&text=Praveen%20S&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20ML%20Developer%20%7C%20Azure%20AI%20Engineer&descAlignY=60&descSize=20&descColor=e2d9f3"/>
 
-<!-- Typing Animation -->
+<!-- Typing Animation (Fixed) -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&multiline=false&width=600&lines=🤖+Building+AI+that+matters;🧠+Machine+Learning+%7C+Computer+Vision;☁️+Azure+AI+Engineer+Associate;🐍+Python+%7C+XGBoost+%7C+Streamlit;🎓+9.18+CGPA+%7C+KSRCT+Tiruchengode" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=600&lines=Building+AI+that+matters;Machine+Learning+%7C+Computer+Vision;Azure+AI+Engineer+Associate;Python+%7C+XGBoost+%7C+Streamlit;9.18+CGPA+%7C+KSRCT+Tiruchengode" alt="Typing SVG" />
 </p>
 
 <!-- Social Badges -->
@@ -139,26 +139,12 @@ me.say_hi()
 
 ---
 
-## 📊 GitHub Statistics
+## 🔥 GitHub Streak
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=PRAVEEN1000-7&show_icons=true&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=06b6d4&text_color=c9d1d9&bg_color=0d1117&hide_border=false&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PRAVEEN1000-7&layout=compact&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=06b6d4&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
+  <img src="https://streak-stats.demolab.com/?user=PRAVEEN1000-7&theme=tokyonight&border=a855f7&ring=a855f7&fire=06b6d4&currStreakLabel=a855f7&sideLabels=06b6d4&background=0d1117" alt="GitHub Streak"/>
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=PRAVEEN1000-7&theme=tokyonight&border=a855f7&ring=a855f7&fire=06b6d4&currStreakLabel=a855f7&sideLabels=06b6d4&background=0d1117" alt="GitHub Streak"/>
-</p>
-
----
-
-## 🏅 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=PRAVEEN1000-7&theme=tokyonight&no-frame=true&no-bg=false&margin-w=6&column=6" />
-</p>
-
----
 
 ## 🎓 Certifications
 
@@ -196,7 +182,6 @@ me.say_hi()
 <p align="center">
   <img src="https://raw.githubusercontent.com/PRAVEEN1000-7/PRAVEEN1000-7/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 </p>
-
 
 ---
 
